@@ -1,0 +1,81 @@
+/* .box {
+    position: relative;
+    width: 37.5em;
+    height: 25;
+    display: block;
+    margin: auto;
+    margin-top: 6%;
+    background: grey;
+}
+
+.leftbutton {
+    position: absolute;
+    border-radius: 50%;
+    background-color: grey;
+    height: 50%;
+    top: 25%;
+    left: 10%;
+    width: 33%;
+}
+
+.circleinside {
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    z-index: 2;
+}
+
+.middlebutton {
+    position: absolute;
+    border-radius: 50%;
+    background-color: grey;
+    height: 40%;
+    top: 25;
+    left: 25%;
+    width: 50%;
+}
+
+.rightbutton {
+    position: absolute;
+    border-radius: 50%;
+    background-color: grey;
+    height: 50%;
+    top: 25%;
+    right: 10%;
+    width: 33%;
+} */
+
+
+body {
+    background-color: #c6c6c6;
+}
+
+.remote {
+    display: flex;
+    width: 768px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.remote-part {
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+}
+
+.remote-left {
+    border-radius: 50%;
+}
+
+.remote-center {
+    margin: auto -35px auto -35px;
+    height: 180px;
+}
+
+.remote-right {
+    border-radius: 50%;
+}
