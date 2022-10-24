@@ -5,7 +5,7 @@ body {
 .remote {
     position: relative;
     display: flex;
-    width: 600px;
+    width: 525px;
     height: 300px;
     margin: 0 auto;
 }
@@ -22,11 +22,11 @@ body {
 
 .joystick-vertical {
     position: absolute;
-    margin: 55px;
-    top: 20%;
-    left: 5px;
-    width: 150px;
-    height: 40px;
+    left: 2%;
+    margin: 45px;
+    top: 25%;
+    width: 80px;
+    height: 25px;
     background: black;
     border-radius: 10px;
     
@@ -34,10 +34,10 @@ body {
 
 .joystick-horizontal {
     position: absolute;
-    height: 155px;
-    width: 35px;
-    left: 110px;
-    top: 20%;
+    height: 100px;
+    width: 25px;
+    left: 86px;
+    top: 30%;
     background: black;
     border-radius: 10px;
 }
@@ -45,7 +45,7 @@ body {
 
 .remote-center {
     margin: auto -35px auto -35px;
-    height: 180px;
+    height: 221px;
 }
 
 .select {
